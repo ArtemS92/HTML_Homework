@@ -18,55 +18,16 @@
     src: url('../fonts/Gilroy-SemiBold.woff2');
 }
 
-.homepage {
-    width: 1920px;
-    height: 700px;
-}
-
-.home-meta {
-    width: 522px;
-    height: 374px;
-    flex-shrink: 0;
-    margin-top: 164px;
-    margin-bottom: 162px;
-    margin-left: 373px;
-    margin-right: 40.94px;
-}
-
-.home-rectangle {
-    width: 610.735px;
-    height: 372.904px;
-    flex-shrink: 0;
-    margin-top: 162.71px;
-    margin-bottom: 162.45px;
-    margin-right: 439.25px;
-}
-
-.home-image {
-    width: 544.814px;
-    height: 374.843px;
-    flex-shrink: 0;
-    margin-top: -1.3px;
-    margin-bottom: -0.6px;
-    margin-left: 1.94px;
-    margin-right: 63.98px;
-}
-
 .home-menu-bar {
     width: 1170px;
     height: 40px;
-    flex-shrink: 0;
     display: flex;
-    gap: 500px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 51px auto;
 }
 
 .home-menu {
-    width: 533px;
-    height: 17px;
-    flex-shrink: 0;
-    margin-top: 51px;
-    margin-right: 375px;
-    margin-bottom: 94.71px;
     color: #F25822;
     font-family: 'Gilroy-SemiBold', sans-serif;
     font-size: 14px;
@@ -85,20 +46,15 @@
 }
 
 .home-logo {
-    width: 137px;
-    height: 40px;
-    flex-shrink: 0;
     display: flex;
     gap: 14px;
-    margin-left: 375px;
-    margin-top: 40px;
-    margin-bottom: 84px;
     color: #000;
     font-family: 'Gilroy-Bold', sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    align-items: center;
 }
 
 .be {
@@ -112,7 +68,9 @@
 
 .home-container {
     display: flex;
-    gap: 39px;
+    justify-content: space-between;
+    width: 1170px;
+    margin: 0 auto;
 }
 
 .title {
@@ -184,19 +142,8 @@
 
 .brand {
     display: flex;
-    width: 1920px;
-    height: 243px;
-    flex-shrink: 0;
+    justify-content: space-between;
+    width: 1170px;
     background: #FFF;
-}
-
-.brand-logo {
-    display: flex;
-    width: 1200px;
-    height: 50px;
-    flex-shrink: 0;
-    margin-top: 97px;
-    margin-bottom: 96px;
-    margin-left: 345px;
-    margin-right: 375px;
+    margin: 97px auto 96px;
 }
