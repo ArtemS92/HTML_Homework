@@ -191,6 +191,7 @@
 }
 
 .brand-logo {
+    display: flex;
     width: 1200px;
     height: 50px;
     flex-shrink: 0;
@@ -198,5 +199,4 @@
     margin-bottom: 96px;
     margin-left: 345px;
     margin-right: 375px;
-    gap: 48px;
 }
