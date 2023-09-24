@@ -18,6 +18,11 @@
     src: url('../fonts/Gilroy-SemiBold.woff2');
 }
 
+@font-face {
+    font-family: 'Gilroy-Regular';
+    src: url('../fonts/Gilroy-Regular.woff2');
+}
+
 .home-menu-bar {
     width: 1170px;
     height: 40px;
@@ -146,4 +151,94 @@
     width: 1170px;
     background: #FFF;
     margin: 97px auto 96px;
+}
+
+.features {
+    display: flex;
+    width: 1915px;
+    margin: 0 auto;
+}
+
+.features-field {
+    display: flex;
+    width: 1899px;
+    /* border: 1px solid #F30606; */
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    padding-left: 364px;
+}
+
+.features-card {
+    display: flex;
+    width: 381px;
+    justify-content: space-between;
+    border: 1px solid #000;
+    margin: 100px 15px;
+}
+
+.card1 {
+    margin-top: 105px;
+    margin-bottom: 95px;
+}
+
+.features-content {
+    display: flex;
+    width: 310px;
+    height: 226px;
+    margin: 40px auto auto 30px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card2-content {
+    width: 370px;
+    height: 291px;
+    flex-shrink: 0;
+    background: #FFF;
+    box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+}
+
+.features-logo {
+    width: 70px;
+    height: 70px;
+    flex-shrink: 0;
+}
+
+.features-card-title {
+    color: #000;
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.features-card-text {
+    width: 310px;
+    height: 42px;
+    flex-shrink: 0;
+    color: #666;
+    font-family: 'Gilroy-Regular', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 22.5px */
+}
+
+.features-card-button {
+    color: #000;
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 16.5px */
+    width: 64px;
+    height: 17px;
+    flex-shrink: 0;
+    border: none;
+    background: #FFF;
 }
