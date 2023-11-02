@@ -1,35 +1,87 @@
-@media (min-width: 768px) and (max-width: 1024px) {
-    .banner .right .brand {
-        margin-left: 32px;
+@media screen and (max-width: 1024px) {
+    .center {
+        max-width: none;
     }
-    .banner .right .brand .title {
+
+    .header {
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+
+    .more-width {
+        max-width: 1024px;
+        min-width: 768px;
+    }
+
+    .font-big-bold {
         font-size: 44px;
     }
-    .banner .right .brand .subtitle {
+
+    .font-big {
         font-size: 24px;
     }
+
+    .our-brand-text {
+        margin-left: 39px;
+    }
+
     .categories {
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: 168px 116px;
+        gap: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .featured-items {
+        margin-top: 110px;
+    }
+
+    .cards-item {
+        margin-top: 73px;
+        grid-template-columns: repeat(2, 1fr);
         gap: 16px;
-        margin: 32px 16px 48px;
+        padding: 0 16px;
     }
-    .showcase {
-        margin-bottom: 24px;
+
+    .card-item-desc {
+        gap: 12px;
+        padding-left: 17px;
+        padding-right: 29px;
     }
-    .showcase .goods {
-        grid-template-columns: repeat(2, 360px);
-        gap: 16px;
-        margin: 24px 16px 24px;
-        justify-items: center;
-        justify-content: center;
+
+    .card-item-desc__title {
+        margin-top: 5px;
     }
-    .advantages {
-        padding: 64px 0;
-        grid-template-columns: 1fr;
+
+    .card-item-desc__price {
+        margin-top: 6px;
     }
-    .subscribe {
-        padding: 64px 0;
-        grid-template-columns: 1fr;
+
+    .feature {
+        margin-top: 65px;
+        display: flex;
+        flex-direction: column;
+        gap: 48px;
+        padding: 48px 204px;
+    }
+
+    .subscribe-info {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 64px;
+        padding-bottom: 140px;
+        gap: 48px;
+    }
+
+    .subscribe-info__subscribe {
+        margin-top: 0;
+        padding: 0;
+        .btn-layout {
+            padding-bottom: 0;
+        }
+    }
+
+    .brand-sign {
+        padding-left: 32px;
+        padding-right: 32px;
     }
 }
