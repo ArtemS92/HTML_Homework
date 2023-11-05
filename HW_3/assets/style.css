@@ -388,15 +388,17 @@ header__right-block__main-menu, .main-menu__title {
 
 .layout__subscribe-info {
     position: relative;
+    
 
     .bkg-image {
+        
         position: absolute;
         top: 0;
         left: 50%;
         transform: translateX(-50%);
         z-index: -10;
         height: 100%;
-        /* width: 100%; */
+        max-width: 100%;
         overflow: hidden;
 
         &::before {

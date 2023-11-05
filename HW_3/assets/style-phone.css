@@ -1,12 +1,31 @@
 @media screen and (max-width: 767px) {
     .center {
-        max-width: none;
+        max-width:none;
+      
+    }
+    .more-width{
         min-width: 320px;
     }
+    .subscribe-info__about-me {
+        
+    
+        .about-me__desc {
+            text-align: center;
+            font-size: 18px;
+            font-weight: 400;
+        }
 
-    .more-width {
-        max-width: 767px;
     }
+    .subscribe-info__subscribe{
+        .desc{
+            text-align: center;
+            font-size: 14px;
+            font-weight: 400;
+        }
+
+    }
+    
+    
 
     .header {
         padding: 0 16px;
@@ -76,7 +95,7 @@
     }
 
     .bkg-image {
-        width: 100%;
+        max-width: 100%;
     }
 
     .subscribe-info__subscribe {
